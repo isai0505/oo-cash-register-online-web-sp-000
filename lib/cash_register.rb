@@ -24,7 +24,7 @@ class CashRegister
     end
   end
 
-  def items
+  def items(title, price, quantity = 1)
     @items << add_item
   end
 
